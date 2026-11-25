@@ -114,6 +114,19 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   text-transform:uppercase;color:var(--muted-2)
 }
 
+/* ————— заглушки вместо фотографий ————— */
+
+.ph{
+  background:#f3f1ec;border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;
+  color:#b7b1a8;font-size:10px;letter-spacing:.22em;text-transform:uppercase
+}
+.ph::after{content:"Фото"}
+.ph-4x5{aspect-ratio:4/5}
+.ph-3x4{aspect-ratio:3/4}
+.ph-3x2{aspect-ratio:3/2}
+.hero-figure .ph{width:100%}
+
 /* ————— полоса преимуществ ————— */
 
 .strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}

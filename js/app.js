@@ -27,10 +27,13 @@
   function makeCard(b) {
     var el = document.createElement("article");
     el.className = "card";
+    var media = b.img
+      ? '<a class="card-media" href="catalog.html">' +
+          '<img src="' + b.img + '" alt="' + b.name + '" loading="lazy" width="400" height="500">' +
+        "</a>"
+      : '<div class="card-media ph ph-4x5"></div>';
     el.innerHTML =
-      '<a class="card-media" href="catalog.html">' +
-        '<img src="' + b.img + '" alt="' + b.name + '" loading="lazy" width="400" height="500">' +
-      "</a>" +
+      media +
       '<div class="card-body">' +
         '<h3 class="card-name">' + b.name + "</h3>" +
         '<p class="card-desc">' + b.desc + "</p>" +

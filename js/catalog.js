@@ -2,6 +2,7 @@
    Черновик данных каталога.
    Позже этот файл заменит data/catalog.json из админ-панели:
    структура полей специально сделана под неё.
+   Поле img — пустое: фотографии заказчик ещё не прислал.
    ———————————————————————————————— */
 
 window.CATALOG = {
@@ -14,25 +15,25 @@ window.CATALOG = {
   ],
 
   bouquets: [
-    { id: "b01", name: "Мини",           desc: "5 роз, эвкалипт, крафт",              price: 1200, img: "img/mini.jpg",          available: true  },
-    { id: "b02", name: "Белый гипсофил", desc: "Гипсофила, лен, бумага",              price: 1500, img: "img/gypsophila.jpg",    available: true  },
-    { id: "b03", name: "Гербера",        desc: "5 гербер, зелень",                    price: 1600, img: "img/gerbera.jpg",       available: true  },
-    { id: "b04", name: "Утро",           desc: "15 тюльпанов, крафт",                 price: 1800, img: "img/tulips-bunch.jpg",  available: true  },
+    { id: "b01", name: "Мини",           desc: "5 роз, эвкалипт, крафт",              price: 1200, img: "", available: true  },
+    { id: "b02", name: "Белый гипсофил", desc: "Гипсофила, лен, бумага",              price: 1500, img: "", available: true  },
+    { id: "b03", name: "Гербера",        desc: "5 гербер, зелень",                    price: 1600, img: "", available: true  },
+    { id: "b04", name: "Утро",           desc: "15 тюльпанов, крафт",                 price: 1800, img: "", available: true  },
 
-    { id: "b05", name: "Эвкалипт",       desc: "Эвкалипт, хлопок, сухоцветы",         price: 2000, img: "img/eucalyptus.jpg",    available: true  },
-    { id: "b06", name: "Двухцветная",    desc: "Хризантема кустовая, 7 веток",        price: 2100, img: "img/chrys-bicolor.jpg", available: false },
-    { id: "b07", name: "Солнечный",      desc: "Подсолнухи, солидаго",                price: 2200, img: "img/sunflower.jpg",     available: true  },
-    { id: "b08", name: "Розовый сад",    desc: "11 кустовых роз, эвкалипт",           price: 2400, img: "img/roses-pink.jpg",    available: true  },
+    { id: "b05", name: "Эвкалипт",       desc: "Эвкалипт, хлопок, сухоцветы",         price: 2000, img: "", available: true  },
+    { id: "b06", name: "Двухцветная",    desc: "Хризантема кустовая, 7 веток",        price: 2100, img: "", available: false },
+    { id: "b07", name: "Солнечный",      desc: "Подсолнухи, солидаго",                price: 2200, img: "", available: true  },
+    { id: "b08", name: "Розовый сад",    desc: "11 кустовых роз, эвкалипт",           price: 2400, img: "", available: true  },
 
-    { id: "b09", name: "Нежность",       desc: "Эустома, гортензия, гипсофила",       price: 4200, img: "img/eustoma-pink.jpg",  available: true  },
-    { id: "b10", name: "Классика",       desc: "25 роз 60 см, крафт",                 price: 4500, img: "img/roses-big.jpg",     available: true  },
-    { id: "b11", name: "Композиция",     desc: "Шляпная коробка, микс сезона",        price: 4800, img: "img/gift.jpg",          available: true  },
-    { id: "b12", name: "Гортензия",      desc: "Гортензия, розы, эвкалипт",           price: 5400, img: "img/hydrangea.jpg",     available: false },
+    { id: "b09", name: "Нежность",       desc: "Эустома, гортензия, гипсофила",       price: 4200, img: "", available: true  },
+    { id: "b10", name: "Классика",       desc: "25 роз 60 см, крафт",                 price: 4500, img: "", available: true  },
+    { id: "b11", name: "Композиция",     desc: "Шляпная коробка, микс сезона",        price: 4800, img: "", available: true  },
+    { id: "b12", name: "Гортензия",      desc: "Гортензия, розы, эвкалипт",           price: 5400, img: "", available: false },
 
-    { id: "b13", name: "Пион",           desc: "Сезонный, 9 пионов",                  price: 6200, img: "img/peony.jpg",         available: true  },
-    { id: "b14", name: "Свадебный",      desc: "Белые розы, эустома, лен",            price: 6500, img: "img/bride.jpg",         available: true  },
-    { id: "b15", name: "Белый сад",      desc: "Лизиантус, гортензия, зелень",        price: 7200, img: "img/lisianthus-white.jpg", available: true },
-    { id: "b16", name: "51 роза",        desc: "Розы 70 см, премиум упаковка",        price: 9800, img: "img/roses-mix.jpg",     available: true  }
+    { id: "b13", name: "Пион",           desc: "Сезонный, 9 пионов",                  price: 6200, img: "", available: true  },
+    { id: "b14", name: "Свадебный",      desc: "Белые розы, эустома, лен",            price: 6500, img: "", available: true  },
+    { id: "b15", name: "Белый сад",      desc: "Лизиантус, гортензия, зелень",        price: 7200, img: "", available: true  },
+    { id: "b16", name: "51 роза",        desc: "Розы 70 см, премиум упаковка",        price: 9800, img: "", available: true  }
   ],
 
   flowers: [
