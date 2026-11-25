@@ -1,0 +1,10 @@
+# в папке с фотографиями не должно быть исполняемых файлов
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh|htm|html)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>

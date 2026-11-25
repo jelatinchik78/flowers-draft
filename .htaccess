@@ -1,0 +1,23 @@
+# Flowers — настройки Apache
+Options -Indexes
+AddDefaultCharset UTF-8
+
+# конфиг с хешем пароля не должен отдаваться в браузер
+<IfModule mod_authz_core.c>
+  <Files "config.php">
+    Require all denied
+  </Files>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <Files "config.php">
+    Order allow,deny
+    Deny from all
+  </Files>
+</IfModule>
+
+# JSON каталога должен обновляться без кеша
+<IfModule mod_headers.c>
+  <FilesMatch "catalog\.json$">
+    Header set Cache-Control "no-store, max-age=0"
+  </FilesMatch>
+</IfModule>

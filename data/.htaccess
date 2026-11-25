@@ -1,0 +1,12 @@
+# закрытые данные: оптовые цены, хеш пароля, резервные копии
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(wholesale\.json|auth\.json)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <FilesMatch "^(wholesale\.json|auth\.json)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>

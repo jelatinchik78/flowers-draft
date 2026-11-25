@@ -1,0 +1,248 @@
+{
+    "version": 1,
+    "updated": "2026-11-25T21:41:19+05:00",
+    "bouquets": [
+        {
+            "id": "b01",
+            "name": "Мини",
+            "price": 1200,
+            "img": "",
+            "available": true,
+            "desc": "5 роз, эвкалипт, крафт"
+        },
+        {
+            "id": "b02",
+            "name": "Белый гипсофил",
+            "price": 1500,
+            "img": "",
+            "available": true,
+            "desc": "Гипсофила, лен, бумага"
+        },
+        {
+            "id": "b03",
+            "name": "Гербера",
+            "price": 1600,
+            "img": "",
+            "available": true,
+            "desc": "5 гербер, зелень"
+        },
+        {
+            "id": "b04",
+            "name": "Утро",
+            "price": 1800,
+            "img": "",
+            "available": true,
+            "desc": "15 тюльпанов, крафт"
+        },
+        {
+            "id": "b05",
+            "name": "Эвкалипт",
+            "price": 2000,
+            "img": "",
+            "available": true,
+            "desc": "Эвкалипт, хлопок, сухоцветы"
+        },
+        {
+            "id": "b06",
+            "name": "Двухцветная",
+            "price": 2100,
+            "img": "",
+            "available": false,
+            "desc": "Хризантема кустовая, 7 веток"
+        },
+        {
+            "id": "b07",
+            "name": "Солнечный",
+            "price": 2200,
+            "img": "",
+            "available": true,
+            "desc": "Подсолнухи, солидаго"
+        },
+        {
+            "id": "b08",
+            "name": "Розовый сад",
+            "price": 2400,
+            "img": "",
+            "available": true,
+            "desc": "11 кустовых роз, эвкалипт"
+        },
+        {
+            "id": "b09",
+            "name": "Нежность",
+            "price": 4200,
+            "img": "",
+            "available": true,
+            "desc": "Эустома, гортензия, гипсофила"
+        },
+        {
+            "id": "b10",
+            "name": "Классика",
+            "price": 4500,
+            "img": "",
+            "available": true,
+            "desc": "25 роз 60 см, крафт"
+        },
+        {
+            "id": "b11",
+            "name": "Композиция",
+            "price": 4800,
+            "img": "",
+            "available": true,
+            "desc": "Шляпная коробка, микс сезона"
+        },
+        {
+            "id": "b12",
+            "name": "Гортензия",
+            "price": 5400,
+            "img": "",
+            "available": false,
+            "desc": "Гортензия, розы, эвкалипт"
+        },
+        {
+            "id": "b13",
+            "name": "Пион",
+            "price": 6200,
+            "img": "",
+            "available": true,
+            "desc": "Сезонный, 9 пионов"
+        },
+        {
+            "id": "b14",
+            "name": "Свадебный",
+            "price": 6500,
+            "img": "",
+            "available": true,
+            "desc": "Белые розы, эустома, лен"
+        },
+        {
+            "id": "b15",
+            "name": "Белый сад",
+            "price": 7200,
+            "img": "",
+            "available": true,
+            "desc": "Лизиантус, гортензия, зелень"
+        },
+        {
+            "id": "b16",
+            "name": "51 роза",
+            "price": 9800,
+            "img": "",
+            "available": true,
+            "desc": "Розы 70 см, премиум упаковка"
+        }
+    ],
+    "flowers": [
+        {
+            "id": "f01",
+            "name": "Роза кустовая, 50 см",
+            "price": 190,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f02",
+            "name": "Роза, 60 см",
+            "price": 250,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f03",
+            "name": "Роза, 70 см",
+            "price": 320,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f04",
+            "name": "Роза, 90 см",
+            "price": 450,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f05",
+            "name": "Пион",
+            "price": 690,
+            "img": "",
+            "available": false
+        },
+        {
+            "id": "f06",
+            "name": "Хризантема кустовая",
+            "price": 180,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f07",
+            "name": "Тюльпан",
+            "price": 120,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f08",
+            "name": "Гербера",
+            "price": 160,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f09",
+            "name": "Эустома",
+            "price": 220,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f10",
+            "name": "Лилия",
+            "price": 320,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f11",
+            "name": "Альстромерия",
+            "price": 170,
+            "img": "",
+            "available": false
+        },
+        {
+            "id": "f12",
+            "name": "Гортензия",
+            "price": 550,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f13",
+            "name": "Ранункулюс",
+            "price": 240,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f14",
+            "name": "Гипсофила, ветка",
+            "price": 90,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f15",
+            "name": "Эвкалипт, ветка",
+            "price": 80,
+            "img": "",
+            "available": true
+        },
+        {
+            "id": "f16",
+            "name": "Сухоцветы, пучок",
+            "price": 150,
+            "img": "",
+            "available": true
+        }
+    ]
+}
