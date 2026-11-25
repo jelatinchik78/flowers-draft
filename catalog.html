@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+
+<meta name="robots" content="noindex, nofollow">
+<title>Каталог — FLOWERS, Ревда</title>
+<meta name="description" content="Букеты по ценовым сегментам и цветы поштучно. Цены и наличие обновляются ежедневно.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">Flowers</span>
+      <span class="brand-sub">цветочный магазин · Ревда</span>
+    </a>
+    <nav class="nav">
+      <a href="catalog.html" aria-current="page">Каталог</a>
+      <a href="index.html#vitrina">Витрина</a>
+      <a href="delivery.html">Доставка</a>
+      <a href="payment.html">Оплата</a>
+      <a href="care.html">Уход</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="head-phone" href="tel:+79961857022">+7 996 185-70-22</a>
+    <button class="burger" aria-expanded="false" aria-controls="mobile-nav">Меню</button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav">
+    <div class="wrap">
+      <a href="catalog.html">Каталог</a>
+      <a href="index.html#vitrina">Витрина</a>
+      <a href="delivery.html">Доставка</a>
+      <a href="payment.html">Оплата</a>
+      <a href="care.html">Уход за букетом</a>
+      <a href="contacts.html">Контакты</a>
+      <a class="mobile-phone" href="tel:+79961857022">+7 996 185-70-22</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="wrap">
+    <div class="page-head">
+      <p class="eyebrow">Каталог</p>
+      <h1>Букеты и цветы</h1>
+      <p>Готовые букеты разделены по цене — выбирайте сегмент, чтобы не листать лишнее. Цветы поштучно продаются на сборку: можно собрать свой букет из того, что есть сегодня.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Разделы каталога">
+      <button class="tab" role="tab" data-target="bouquets" aria-selected="true">Букеты</button>
+      <button class="tab" role="tab" data-target="flowers" aria-selected="false">Цветы поштучно</button>
+    </div>
+
+    <section data-panel="bouquets">
+      <div class="filters">
+        <div class="filters-inner">
+          <button class="chip" data-segment="all" aria-pressed="true">Все</button>
+          <button class="chip" data-segment="to2000" aria-pressed="false">До 2 000 ₽</button>
+          <button class="chip" data-segment="2000-4000" aria-pressed="false">2 000 – 4 000 ₽</button>
+          <button class="chip" data-segment="4000-6000" aria-pressed="false">4 000 – 6 000 ₽</button>
+          <button class="chip" data-segment="from6000" aria-pressed="false">От 6 000 ₽</button>
+          <span class="filters-sep"></span>
+          <label class="switch">
+            <input type="checkbox" data-available-toggle>
+            Только в наличии
+          </label>
+        </div>
+      </div>
+
+      <p class="count" data-count></p>
+      <div class="cards" data-catalog style="padding-bottom:96px"></div>
+    </section>
+
+    <section data-panel="flowers" hidden>
+      <div style="padding:8px 0 96px">
+        <p class="count" style="margin-bottom:8px">Цена за штуку. Наличие проверяйте перед заказом — ассортимент меняется каждый день.</p>
+        <div class="pricelist" data-flowers></div>
+        <div class="note" style="margin-top:36px">
+          <b>Сборка</b>
+          Сборка букета из ваших цветов — 300 ₽. Упаковка, лента и открытка включены.
+        </div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-mark">Flowers</span>
+        <p>Цветочный магазин в Ревде. Цветы поштучно, букеты на заказ, доставка по городу.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Разделы</h4>
+        <a href="catalog.html">Каталог</a>
+        <a href="delivery.html">Доставка</a>
+        <a href="payment.html">Оплата</a>
+        <a href="care.html">Уход за букетом</a>
+      </div>
+      <div class="foot-col">
+        <h4>Контакты</h4>
+        <a href="tel:+79961857022">+7 996 185-70-22</a>
+        <a href="https://t.me/flowersrvd">Telegram</a>
+        <a href="https://max.ru/">MAX</a>
+        <span>ул. Максима Горького, 21В</span>
+      </div>
+      <div class="foot-col">
+        <h4>Часы работы</h4>
+        <span>Пн–Вс, 09:00–21:00</span>
+        <span>Заказы принимаем до 20:00</span>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Flowers, Ревда</span>
+      <span>Оплата переводом · СБП</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/catalog.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
