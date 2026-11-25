@@ -1,0 +1,16 @@
+# содержимое магазина и служебные данные — не в репозиторий
+data/backups/*.json
+data/wholesale.json
+data/auth.json
+data/*.tmp-*
+
+# загруженные фотографии
+img/catalog/*.jpg
+img/catalog/*.jpeg
+img/catalog/*.png
+img/catalog/*.webp
+
+# мусор системы
+Thumbs.db
+desktop.ini
+.DS_Store
