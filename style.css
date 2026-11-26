@@ -443,9 +443,11 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .hero h1{font-size:38px}
   .hero-lead{font-size:15.5px}
   .cards{grid-template-columns:1fr}
-  [data-flowers]{grid-template-columns:1fr 1fr;gap:10px}
-  [data-flowers] .card-name{font-size:15px}
-  [data-flowers] .card-body{padding-top:10px}
+  [data-featured],[data-catalog],[data-flowers]{grid-template-columns:1fr 1fr;gap:12px}
+  [data-featured] .card-name,[data-catalog] .card-name,[data-flowers] .card-name{font-size:15px;line-height:1.3}
+  [data-featured] .card-body,[data-catalog] .card-body,[data-flowers] .card-body{padding-top:10px}
+  [data-featured] .card-desc,[data-catalog] .card-desc{font-size:11.5px;line-height:1.45}
+  [data-featured] .card-price,[data-catalog] .card-price,[data-flowers] .card-price{font-size:13px}
   .gallery{grid-template-columns:1fr}
   .gallery .wide{grid-column:span 1}
   .foot-grid{grid-template-columns:1fr}
