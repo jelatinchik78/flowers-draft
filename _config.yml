@@ -1,0 +1,11 @@
+# GitHub Pages: публикуем только статическую часть сайта.
+# PHP на Pages не выполняется, поэтому админку и конфиг не отдаём в открытый доступ.
+exclude:
+  - admin.php
+  - config.php
+  - admin
+  - lib
+  - data/backups
+  - data/wholesale.json
+  - data/auth.json
+  - README.md
