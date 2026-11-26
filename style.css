@@ -6,9 +6,9 @@
 :root{
   --ink:#0e0e0e;
   --paper:#ffffff;
-  --soft:#f7f6f3;
-  --line:#e3e0da;
-  --line-strong:#c9c5bd;
+  --soft:#f6f6f6;
+  --line:#e4e4e4;
+  --line-strong:#cacaca;
   --muted:#75716b;
   --muted-2:#96918a;
   --ok:#2f6b45;
@@ -121,9 +121,9 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 /* ————— заглушки вместо фотографий ————— */
 
 .ph{
-  background:#f6f4f0;border:1px solid var(--line);
+  background:#f3f3f3;border:1px solid var(--line);
   display:flex;align-items:center;justify-content:center;
-  color:#bcb6ac;font-size:10px;letter-spacing:.22em;text-transform:uppercase
+  color:#b8b8b8;font-size:10px;letter-spacing:.22em;text-transform:uppercase
 }
 .ph::after{content:"Фото"}
 .card-media.ph::after{content:""}
