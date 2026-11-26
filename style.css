@@ -320,6 +320,13 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .table td{padding:12px 12px 12px 0;border-bottom:1px solid var(--line);vertical-align:top}
 .table td:last-child,.table th:last-child{text-align:right;padding-right:0;white-space:nowrap;font-variant-numeric:tabular-nums}
 
+.article-body .pay-methods{
+  list-style:none;margin:0 0 24px;padding:0;font-size:14.5px;border-top:1px solid var(--ink)
+}
+.article-body .pay-methods li{
+  padding:12px 0;margin:0;border-bottom:1px solid var(--line);color:#3f3c38
+}
+
 .note{
   border-left:2px solid var(--ink);padding:2px 0 2px 18px;
   margin:26px 0;color:#3f3c38;font-size:14.5px
